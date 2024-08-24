@@ -2,11 +2,18 @@ package strategy;
 
 import java.util.Collections;
 import java.util.List;
-
+/**
+ * Performs a Binary Search (implements the SearchBehavior interface)
+ * @author Wade Little
+ */
 public class BinarySearch implements SearchBehavior{
+    /**
+     * Uses the binary search algorithim to see if a specified Person is in a list of Persons
+     * @param people A list of Persons
+     * @param person The person you are searching/checking for
+     * @return A boolean value (True if the person is in the list, False if the person isn't found in the list)
+     */
  public boolean contains(List<Person> people, Person person) {
-        //TODO search using Binary search algorithim and return a boolean value of whether or not the Person is in attendees
-        
         Collections.sort(people);
 
         int left = 0;
