@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "design_patterns",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
