@@ -1,14 +1,26 @@
 package decorator;
 
 import java.util.*;
-
+/**
+ * Used to add/integrate new additions to the specified character
+ */
 public abstract class CharacterDecorator extends Character{
+    /**
+     * The character you are decorating
+     */
     private Character character;
-
+    /**
+     * Initializes the character you are decorating 
+     * @param character The character you want to decorate
+     */
     public CharacterDecorator(Character character) {
         super(character.lines, character.getName());
         this.character=character;
     }
+    /**
+     * Goes through every character and integrates the new decoration onto the original character
+     * @param decor The ArrayList that holds the decoration you want to add/integrate onto the character
+     */
     protected void integrateDecor(ArrayList<String> decor) {
         for (int i=0;i < lines.size();i++) {
             
