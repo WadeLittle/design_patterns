@@ -3,6 +3,7 @@ package decorator;
 import java.io.File;
 import java.util.ArrayList;
 /**
+ * @author Wade Little
  * Adds ears onto a character(potatohead)
  */
 public class Ears extends CharacterDecorator {

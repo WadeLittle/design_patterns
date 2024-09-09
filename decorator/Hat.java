@@ -1,9 +1,10 @@
 package decorator;
 
 import java.util.ArrayList;
-/*
+/**
+ * @author Wade Little
  * Adds a hat to a character(potatohead)
- */
+ **/
 public class Hat extends CharacterDecorator {
     /**
      * Adds a hat to the character with the hat.txt file

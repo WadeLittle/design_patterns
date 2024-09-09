@@ -2,6 +2,7 @@ package decorator;
 
 import java.util.ArrayList;
 /**
+ * @author Wade Little
  * Integrates a nose onto a character(potatohead)
  */
 public class Nose extends CharacterDecorator {

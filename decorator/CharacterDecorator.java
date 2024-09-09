@@ -2,6 +2,7 @@ package decorator;
 
 import java.util.*;
 /**
+ * @author Wade Little
  * Used to add/integrate new additions to the specified character
  */
 public abstract class CharacterDecorator extends Character{

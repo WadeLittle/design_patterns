@@ -2,6 +2,7 @@ package decorator;
 import java.util.ArrayList;
 
 /**
+ * @author Wade Little
  * Creates a character that has  a name and an arraylist of strings that can be printed or modified by the CharacterDecorator
  */
 public abstract class Character {

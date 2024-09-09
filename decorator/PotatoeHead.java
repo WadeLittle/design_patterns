@@ -2,6 +2,7 @@ package decorator;
 
 import java.util.ArrayList;
 /**
+ * @author Wade Little
  * This creates a PotatoeHead character
  */
 public class PotatoeHead extends Character {

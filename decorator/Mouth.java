@@ -2,6 +2,7 @@ package decorator;
 
 import java.util.ArrayList;
 /**
+ * @author Wade Little
  * Integrates a mouth onto a character(potatohead)
  */
 public class Mouth extends CharacterDecorator {

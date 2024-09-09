@@ -2,6 +2,7 @@ package decorator;
 
 import java.util.ArrayList;
 /**
+ * @author Wade little
  * Adds eyes onto a character(potatohead)
  */
 public class Eyes extends CharacterDecorator {
